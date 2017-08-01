@@ -1,0 +1,140 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.about-info{
+		/*width: 800px;*/
+		margin:100px auto 50px;
+		text-align: center;
+		float:none;
+	}
+	.about-title::after{
+		margin:25px auto;
+	}
+	.about-image{
+		margin:50px auto 100px;
+		float:none;
+	}
+	.about-image__text{
+		font-size: 18px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.title-block h1{
+		font-size: 8vw;
+		letter-spacing: 8px;
+	}
+	.menu{
+		display: none;
+	}
+	i.fa-bars{
+		display: block;
+	}
+	section.service-section{
+		padding-top:30px;
+	}
+	.service__item{
+		margin:50px auto;
+	}
+	.footer-block{
+		text-align: center;
+		min-height: 200px;
+	}
+
+
+	
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#map,
+	.contact-info-block,
+	section.contact-section{
+		width: 97%;
+		float:none;
+		margin:0 auto;
+	}
+	.contact-info-block::before{
+		display: none;
+		
+	}
+	.contact-inner-wrap{
+		text-align: center;
+	}
+	.contact-title:after{
+		left:0;
+		margin:25px auto;
+	}
+	.contact-btn{
+		padding:15px 17px;
+	}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	i.fa-bars{
+		line-height: 27px;
+	}
+	#map,
+	.contact-info-block,
+	section.contact-section{
+		min-height: 455px;
+	}
+	.contact-title{
+		margin-top: 105px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.logo{
+		font-size: 22px;
+	}
+	.logo-third{
+		font-size: 20px;
+	}
+	.title-block h1{
+		margin-bottom: 40px;
+	}
+	.title-block span{
+		font-size: 20px;
+		letter-spacing: 1px;
+	}
+	.footer-block__title{
+		font-size: 16px;
+	}
+
+		
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.menu{
+		display:block!important;	
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
