@@ -330,22 +330,22 @@ section.service-section{
 	cursor:pointer;
 }
 .cok-sprite{
-	background:url(../img/service-sprite1.png) no-repeat 0 0;
-}
-.cok-sprite:hover{
 	background:url(../img/service-sprite1.png) no-repeat -180px 0;
 }
+.cok-sprite:hover{
+	background:url(../img/service-sprite1.png) no-repeat 0 0;
+}
 .fish-sprite{
-	background:url(../img/service-sprite2.png) no-repeat 7px 0;
+	background:url(../img/service-sprite2.png) no-repeat -183px 0;
 }
 .fish-sprite:hover{
-	background:url(../img/service-sprite2.png) no-repeat -171px 0;
+	background:url(../img/service-sprite2.png) no-repeat -2px 0;
 }
 .shrim-sprite{
-	background:url(../img/service-sprite3.png) no-repeat 7px 0;
+	background:url(../img/service-sprite3.png) no-repeat -171px 0;
 }
 .shrim-sprite:hover{
-	background:url(../img/service-sprite3.png) no-repeat -171px 0;
+	background:url(../img/service-sprite3.png) no-repeat 5px 0;
 }
 .service-text__title{
 	vertical-align: bottom;
@@ -428,6 +428,10 @@ section.contact-section{
 	background:#fff;
 	border:none;
 	border-radius:3px;
+	transition: transform .3s ease-in-out;
+}
+.contact-btn:hover{
+	transform:skew(10deg);
 }
 /*FOOTER*/
 .footer{
